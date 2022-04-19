@@ -71,9 +71,15 @@ ResultMin=(minutos%60)
 print('El resultado es de %d horas y %d minutos'%(ResultHoras,ResultMin))
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 8. En que consiste el programa
+# 8. Un vendedor realiza 3 ventas al mes y se lleva un 10% de comisiónes de venta, cuanto gana?
 
-
+sueldoBase=float(input('Escribe cuál es tu sueldo base: '))
+venta1=float(input('Escribe cuanto dinero ganó en la primera venta: '))
+venta2=float(input('Escribe cuanto dinero ganó en la segunda venta: '))
+venta3=float(input('Escribe cuanto dinero ganó en la tercera venta: '))
+ventasTotales=(venta1*0.1)+(venta2*0.1)+(venta3*0.1)
+SueldoTotal=sueldoBase+ventasTotales
+print('Su sueldo mensual total es de %.2f'%(SueldoTotal))
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # 9. En que consiste el programa
