@@ -47,9 +47,11 @@ print('''~ La suma es de %.2f
 ~ La multiplicación es de %.2f'''%(suma,resta,div,mult))
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 5. En que consiste el programa
+# 5. Pasar de grados fahrenheit a celcius
 
-
+fahren=float(input("Escribe la temperatura en grados fahrenheit: "))
+celcius=(fahren-32)*5/9
+print('La temperatura es de %d ºC'%(celcius))
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # 6. En que consiste el programa
