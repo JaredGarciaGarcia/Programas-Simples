@@ -23,7 +23,7 @@
 # del(var) : borrar la variable
 # "==" : para indicar igual que
 # "var1 and var2" : para indicar que las 2 tiene que cumplir x 
-# "var1 or var2" : para indicar que una de ellastiene que cumplir x 
+# "var1 or var2" : para indicar que una de ellas tiene que cumplir x 
 # var1=input("Dime tu nombre: ") : con esto guardamos el resultado en la variable (var)
 # var2=int(input("Escribe un número entero: ")) : aqui lo que alternamos es "int" que ponemos el tipo que queramos
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

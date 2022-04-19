@@ -54,14 +54,21 @@ celcius=(fahren-32)*5/9
 print('La temperatura es de %d ºC'%(celcius))
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 6. En que consiste el programa
+# 6. Media de 3 números
 
-
+num1=float(input('Escribe el primer número: '))
+num2=float(input('Escribe el segundo número: '))
+num3=float(input('Escribe el tercer número: '))
+media=(num1+num2+num3)/3
+print('La media de los tres números es de %.2f'%(media))
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 7. En que consiste el programa
+# 7. Pasar una cantidad de minutos indeterminada a horas
 
-
+minutos=int(input('Escribe la cantidad de minutos: '))
+ResultHoras=(minutos//60)
+ResultMin=(minutos%60)
+print('El resultado es de %d horas y %d minutos'%(ResultHoras,ResultMin))
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # 8. En que consiste el programa
