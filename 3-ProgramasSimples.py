@@ -82,8 +82,11 @@ SueldoTotal=sueldoBase+ventasTotales
 print('Su sueldo mensual total es de %.2f'%(SueldoTotal))
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 9. En que consiste el programa
+# 9. Tienda hace 15% de descuento sobre compra total a clientes
 
-
+CompraTotal=float(input('Escribe la compra total en euros: '))
+descuento=(CompraTotal*0.15)
+precioFinal=(CompraTotal-descuento)
+print('El total a pagar con el descueto aplicado es de %.2f €'%(precioFinal))
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
