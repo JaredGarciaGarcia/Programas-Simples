@@ -1,13 +1,5 @@
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # ################################## Ejemplos de Programas Sencillos #################################################
-# 1. Programa para ver si funciona PYTHON
-
-edad=int(input("Dime tu edad: "))
-if edad>=18:
-    print("Eres mayor de edad")
-print("Programa Terminado")
-
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # 1. Programa que pregunte al usuario su nombre, y luego lo salude
 
 nombre=str(input("Dime tu nombre: "))
@@ -90,3 +82,4 @@ precioFinal=(CompraTotal-descuento)
 print('El total a pagar con el descueto aplicado es de %.2f €'%(precioFinal))
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
